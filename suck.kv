@@ -1,0 +1,85 @@
+
+<Floaty>:
+    GridLayout:
+
+        cols:2
+        rows:4
+
+        #1 row
+        Label:
+            canvas.before:
+                Color:
+                    rgb: 1,0,0,0
+                Rectangle:
+                    pos:self.pos
+                    size: self.size
+            text: "Link"
+
+        TextInput:
+            id: linkInput
+            multiline: False
+            #on_text_validate:
+                #root.linkUpdate()
+            on_focus:
+                root.linkUpdate(self,self.focus)
+
+        #2 row
+        Label:
+            canvas.before:
+                Color:
+                    rgb: 1,0,0,0
+                Rectangle:
+                    pos:self.pos
+                    size: self.size
+            text: "Playlist Start Number:"
+
+        TextInput:
+            id: numberInput
+            multiline: False
+            #on_text_validate:
+                #root.linkUpdate()
+            on_focus:
+                root.playlistnumberUpdate(self,self.focus)
+
+
+
+        #3 row
+        Label:
+            canvas.before:
+                Color:
+                    rgb: 1,0,0,0
+                Rectangle:
+                    pos:self.pos
+                    size: self.size
+            text: "Extract Audio?"
+        CheckBox:
+            on_active: root.checkbox_click(self, self.active)
+            size_hint_x: .20
+
+
+        #4 row
+
+        Label:
+            canvas.before:
+                Color:
+                    rgb: 1,0,0,0
+                Rectangle:
+                    pos:self.pos
+                    size: self.size
+            text: ""
+            id: progresslabel
+
+            
+        Button:
+            font_size: 40
+            color: 0,1,0,1
+            background_color: 0,0,0,0
+            text: "Download"
+            pos: 0,0
+            on_press: root.downloadvid()
+            id: downloadbutton
+
+        
+
+        
+
