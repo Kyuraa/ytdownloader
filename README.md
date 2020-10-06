@@ -3,6 +3,7 @@
 ### Requirements
 * **kivy**
 * **shutil**
+
 youtube-dl is built-in. (more like included)
 
 
@@ -15,4 +16,4 @@ Usage is pretty simple.
 Additionally: It will also convert ".webm" and ".mkv" files to ".mp4" files while keeping the original file. This is due to my personal preference. If you wanna remove it, just comment out "converter(file)" in the code.
 
 
-![UI](https://prnt.sc/uu8hyr)
+![UI](https://github.com/Kyuraa/ytdownloader/tree/main/image.png)
