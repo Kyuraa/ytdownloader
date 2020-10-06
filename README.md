@@ -16,4 +16,4 @@ Usage is pretty simple.
 Additionally: It will also convert ".webm" and ".mkv" files to ".mp4" files while keeping the original file. This is due to my personal preference. If you wanna remove it, just comment out "converter(file)" in the code.
 
 
-![UI](https://github.com/Kyuraa/ytdownloader/tree/main/image.png)
+![UI](https://github.com/Kyuraa/ytdownloader/tree/main/image.png?raw=true)
