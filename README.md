@@ -4,7 +4,7 @@
 * **kivy**
 * **shutil**
 
-youtube-dl is built-in. (more like included)
+**youtube-dl** is built-in. (more like included, along with **FFMpeg**)
 
 
 Using **youtube-dl** and **kivy** for UI.
@@ -16,4 +16,4 @@ Usage is pretty simple.
 Additionally: It will also convert ".webm" and ".mkv" files to ".mp4" files while keeping the original file. This is due to my personal preference. If you wanna remove it, just comment out "converter(file)" in the code.
 
 
-![UI](https://github.com/Kyuraa/ytdownloader/tree/main/image.png?raw=true)
+![UI](https://github.com/Kyuraa/ytdownloader/blob/main/image.png?raw=true)
