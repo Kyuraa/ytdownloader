@@ -33,7 +33,7 @@ playliststartnumber=0
 cp= 0
 curpath= os.path.dirname(os.path.abspath(__file__))
 
-#ss= "youtube-dl --extract-audio --audio-format mp3 -i https://www.youtube.com/playlist?list=PLhXjW6DZKEpwdDwFp6REjNi25KhJ26RUk --playlist-start 353 --output \"%(title)s.%(ext)s\" "
+
 
 
 class Floaty(FloatLayout):
